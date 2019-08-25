@@ -7,7 +7,7 @@ services:
   nginx:
     build:
       dockerfile: Dockerfile.dev
-      context: .
+      context: ./nginx
     restart: always
     ports:
       - "3000:80"    
