@@ -19,7 +19,7 @@ services:
       - /app/node_modules
       - ./server:/app
     environment:
-      - REDIS_HOST=redis #name of service
+      - REDIS_HOST=redis #name of service in container group
       - REDIS_PORT=6379
       - PGUSER=postgres #default user
       - PGHOST=postgres #name of service
